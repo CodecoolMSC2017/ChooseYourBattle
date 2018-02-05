@@ -1,11 +1,13 @@
 package com.codecool;
 
-public class RuleRepository {
+import java.util.Iterator;
+
+public class RuleRepository implements Iterator<Fact> {
     public void addQuestion(Question question) {
 
     }
 
     public Iterator<Question> getIterator() {
-        
+
     }
 }
