@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="historical">
+        <Question>Historical or Fictional?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value = "historical" />
+            </Selection>
+            <Selection value="false">
+                <SingleValue value = "fictional" />
+            </Selection>
+        </Answer>
+    </Rule>
+
+    <Rule id="era">
+        <Question>What era?</Question>
+    </Rule>
+
+    <Rule id="winners">
+        <Question>Who are the winners?</Question>
+    </Rule>
+
+    <Rule id="length">
+        <Question>how long did it take?</Question>
+    </Rule>
+
+    <Rule id="casualties">
+        <Question>How many Casualties?</Question>
+    </Rule>
+
+</Rules>
