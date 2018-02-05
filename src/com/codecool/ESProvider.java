@@ -1,8 +1,12 @@
 package com.codecool;
 
 public class ESProvider {
-    public static void ESProvider(FactParser factParser, RuleParser ruleparser) {
+    FactParser factParser;
+    RuleParser ruleParser;
 
+    public void ESProvider(FactParser factParser, RuleParser ruleparser) {
+        this.factParser = factParser;
+        this.ruleParser = ruleParser;
     }
 
     public void collectAnswers() {
