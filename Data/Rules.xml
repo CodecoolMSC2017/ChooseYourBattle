@@ -15,12 +15,26 @@
     <Rule id="era">
         <Question>What era?</Question>
         <Answer>
-
+            <Selection value = "1">
+                <SingleValue value = "ancient" />
+            </Selection>
+            <Selection value = "2">
+                <SingleValue value = "medieval" />
+            </Selection>
+            <Selection value = "3">
+                <SingleValue value = "industrial" />
+            </Selection>
+            <Selection value = "4">
+                <SingleValue value = "modern" />
+            </Selection>
+            <Selection value = "5">
+                <SingleValue value = "future" />
+            </Selection>
         </Answer>
     </Rule>
 
     <Rule id="winners">
-        <Question>Who are the winners?</Question>
+        <Question>Who were the winners?</Question>
         <Answer>
 
         </Answer>
@@ -34,7 +48,7 @@
     </Rule>
 
     <Rule id="casualties">
-        <Question>How many Casualties?</Question>
+        <Question>How big were the Casualties?</Question>
         <Answer>
 
         </Answer>
