@@ -11,4 +11,3 @@ public class Fact {
     private Long casualities;
 
 
-}
