@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class RuleRepository implements Iterator<Fact> {
     Iterator<Question> iterator = new QuestionIterator();
     Question question;
-    
+
     public void addQuestion(Question question) {
 
     }
