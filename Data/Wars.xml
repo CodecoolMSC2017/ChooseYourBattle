@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Wars>
+<war>
+<type>historical</type>
+<name>Latin wars</name>
+<era>ancient</era>
+<winners>Rome</winners>
+<losers>Latin</losers>
+<length>5</length>
+<casualities>2500</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>2nd Punic War</name>
+<era>ancient</era>
+<winners>Rome</winners>
+<losers>Carthage</losers>
+<length>16</length>
+<casualities>600000</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>First Mithridatic War</name>
+<era>ancient</era>
+<winners>Rome</winners>
+<losers>Pontus</losers>
+<length>4</length>
+<casualities>300000</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Caesar's Gaelic Wars</name>
+<era>ancient</era>
+<winners>Rome</winners>
+<losers>Gaul</losers>
+<length>8</length>
+<casualities>1000000</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Alexander's Campaign</name>
+<era>ancient</era>
+<winners>Macedon</winners>
+<losers>Persia, India, Greece, Egypt, Thrace, Syria, Babylon</losers>
+<length>13</length>
+<casualities>140000</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Conquests of Timur</name>
+<era>medieval</era>
+<winners>Timurid Dynasty</winners>
+<losers>Golden Horde, Georgia, Ottoman Empire</losers>
+<length>35</length>
+<casualities>12649111</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Hundred Years' War</name>
+<era>medieval</era>
+<winners>France</winners>
+<losers>England</losers>
+<length>116</length>
+<casualities>2794995</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Spanish Conquest of Yucatan</name>
+<era>medieval</era>
+<winners>Spanish</winners>
+<losers>Maya</losers>
+<length>76</length>
+<casualities>1460000</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Seven Years' War</name>
+<era>medieval</era>
+<winners>Great Britain, Prussia</winners>
+<losers>France, Austria, Russia, Sweden</losers>
+<length>7</length>
+<casualities>1102361</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Japanese Invasions of Korea</name>
+<era>medieval</era>
+<winners>Korea, China</winners>
+<losers>Japan</losers>
+<length>6</length>
+<casualities>1000000</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Taiping Rebellion</name>
+<era>industrial</era>
+<winners>China, Britain, France</winners>
+<losers>Taiping</losers>
+<length>14</length>
+<casualities>22360680</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Indian Rebellion of 1857</name>
+<era>industrial</era>
+<winners>Great Britain</winners>
+<losers>India</losers>
+<length>1</length>
+<casualities>2828427</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>American Civil War</name>
+<era>industrial</era>
+<winners>United States</winners>
+<losers>Confederate</losers>
+<length>4</length>
+<casualities>800000</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>First Boer War</name>
+<era>industrial</era>
+<winners>South African Republic</winners>
+<losers>United Kingdom</losers>
+<length>1</length>
+<casualities>449</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Anglo-Zanzibar War</name>
+<era>industrial</era>
+<winners>United Kingdom</winners>
+<losers>Zanzibar</losers>
+<length>0</length>
+<casualities>500</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Venezuelan crisis of 1902-03</name>
+<era>modern</era>
+<winners>Venezuela</winners>
+<losers>United Kingdom, Germany, Italy</losers>
+<length>1</length>
+<casualities>143</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>World War II</name>
+<era>modern</era>
+<winners>United Kingdom, Russia, United States, France</winners>
+<losers>Germany, Italy, Hungary</losers>
+<length>6</length>
+<casualities>36696798</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>World War I</name>
+<era>modern</era>
+<winners>United Kingdom, France, Russia, Italy, United States</winners>
+<losers>Germany, Austria, Hungary, Ottoman Empire</losers>
+<length>4</length>
+<casualities>13396335</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Chinese Civil War</name>
+<era>modern</era>
+<winners>People's Republic of China</winners>
+<losers>Taiwan</losers>
+<length>23</length>
+<casualities>9671401</casualities>
+</war>
+<war>
+<type>historical</type>
+<name>Second Congo War</name>
+<era>modern</era>
+<winners>Democratic Republic of Congo, Namibia, Zimbabwe, Angola, Chad</winners>
+<losers>Rwanda, Uganda</losers>
+<length>5</length>
+<casualities>3674235</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Battle of five armies</name>
+<era>medieval</era>
+<winners>Dwarves, Elves, Men of Dale, Eagles</winners>
+<losers>Orcs, Wargs</losers>
+<length>0</length>
+<casualities>1700</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Battle of Blackwater</name>
+<era>medieval</era>
+<winners>Lannister, Tyrell</winners>
+<losers>Baratheon</losers>
+<length>0</length>
+<casualities>12746</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Battle of Hogwarts</name>
+<era>medieval</era>
+<winners>Order of the Phoenix</winners>
+<losers>Death Eaters</losers>
+<length>0</length>
+<casualities>100</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name></name>
+<era>medieval</era>
+<winners>Kitia</winners>
+<losers>Vaor</losers>
+<length>1</length>
+<casualities>30348</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Earth-Romulan War</name>
+<era>future</era>
+<winners>Earth</winners>
+<losers>Romulans</losers>
+<length>4</length>
+<casualities>7634656</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Dominion War</name>
+<era>future</era>
+<winners>Federation Alliance</winners>
+<losers>Cardassian Union, Dominion</losers>
+<length>2</length>
+<casualities>1200000007</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Battle of Yavin</name>
+<era>future</era>
+<winners>Alliance</winners>
+<losers>Galactic Empire</losers>
+<length>0</length>
+<casualities>2000027</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Narn-Centauri War</name>
+<era>future</era>
+<winners>Centauri Republic</winners>
+<losers>Narn</losers>
+<length>1</length>
+<casualities>18465384</casualities>
+</war>
+<war>
+<type>fictional</type>
+<name>Horus Heresy</name>
+<era>future</era>
+<winners>Loyalists</winners>
+<losers>Traitors</losers>
+<length>10</length>
+<casualities>trillions</casualities>
+</war>
+</Wars>
