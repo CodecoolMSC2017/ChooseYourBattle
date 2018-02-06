@@ -14,10 +14,10 @@ public class ESProvider {
     }
 
     public boolean getAnswerByQuestion(String questionId) {
-
+        return true;
     }
 
     public String evaluate() {
-
+        return null;
     }
 }
