@@ -9,15 +9,21 @@ import org.w3c.dom.Element;
 import java.io.File;
 
 public abstract class XMLParser {
+    private Document document;
+
     public void loadXmlDocument(String xmlPath) {
         try {
             File xmlFile = new File(xmlPath);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(xmlFile);
+            document = dBuilder.parse(xmlFile);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public Document getDocument() {
+        return document;
     }
 }
