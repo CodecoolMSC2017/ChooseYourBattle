@@ -24,6 +24,6 @@ public class Question {
     }
 
     public boolean getEvaulatedAnswer() {
-        return null;
+        return true;
     }
 }
