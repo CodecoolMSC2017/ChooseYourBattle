@@ -1,10 +1,10 @@
 package com.codecool;
 
 public class ESProvider {
-    FactParser factParser;
-    RuleParser ruleParser;
+    private FactParser factParser;
+    private RuleParser ruleParser;
 
-    public void ESProvider(FactParser factParser, RuleParser ruleparser) {
+    public ESProvider(FactParser factParser, RuleParser ruleparser) {
         this.factParser = factParser;
         this.ruleParser = ruleParser;
     }

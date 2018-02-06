@@ -16,7 +16,7 @@ public class Fact {
     }
 
     public void setFactValueById(String id, boolean value) {
-        
+
     }
 
     public boolean getValueById(String id) {
