@@ -1,7 +1,9 @@
 package com.codecool;
 
 public class FactParser {
-    public FactRepository getFactRepository() {
+    private FactRepository factRepository = new FactRepository();
 
+    public FactRepository getFactRepository() {
+        return factRepository;
     }
 }
