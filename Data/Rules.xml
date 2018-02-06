@@ -14,18 +14,30 @@
 
     <Rule id="era">
         <Question>What era?</Question>
+        <Answer>
+
+        </Answer>
     </Rule>
 
     <Rule id="winners">
         <Question>Who are the winners?</Question>
+        <Answer>
+
+        </Answer>
     </Rule>
 
     <Rule id="length">
         <Question>how long did it take?</Question>
+        <Answer>
+
+        </Answer>
     </Rule>
 
     <Rule id="casualties">
         <Question>How many Casualties?</Question>
+        <Answer>
+
+        </Answer>
     </Rule>
 
 </Rules>
