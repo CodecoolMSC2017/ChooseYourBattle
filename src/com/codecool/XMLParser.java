@@ -18,6 +18,8 @@ public abstract class XMLParser {
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             document = dBuilder.parse(xmlFile);
 
+            document.getDocumentElement().normalize();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
