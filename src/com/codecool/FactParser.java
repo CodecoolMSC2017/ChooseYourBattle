@@ -24,8 +24,8 @@ public class FactParser extends XMLParser {
                 String type = warElement.getElementsByTagName("type").item(0).getTextContent();
                 String name = warElement.getElementsByTagName("name").item(0).getTextContent();
                 String era = warElement.getElementsByTagName("era").item(0).getTextContent();
-                Integer length = Integer.parseInt(warElement.getElementsByTagName("length").item(0).getTextContent());
-                Long casualties = Long.parseLong(warElement.getElementsByTagName("length").item(0).getTextContent());
+                String length = warElement.getElementsByTagName("length").item(0).getTextContent();
+                Long casualties = Long.parseLong(warElement.getElementsByTagName("casualties").item(0).getTextContent());
 
                 String temp1 = warElement.getElementsByTagName("winners").item(0).getTextContent();
                 String temp2 = warElement.getElementsByTagName("winners").item(0).getTextContent();

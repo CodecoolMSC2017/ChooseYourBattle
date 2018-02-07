@@ -11,7 +11,7 @@ public class Question {
         this.answer = answer;
     }
 
-    public String getId() {
+    public String getId(){
         return id;
     }
 
@@ -23,7 +23,7 @@ public class Question {
         return answer;
     }
 
-    public boolean getEvaulatedAnswer() {
-        return true;
+    public String getEvaulatedAnswer(String input) {
+        return answer.evaluateAnswerByInput(input);
     }
 }

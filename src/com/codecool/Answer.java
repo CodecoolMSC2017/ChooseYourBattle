@@ -9,13 +9,13 @@ public class Answer {
         this.values = values;
     }
 
-    public boolean evaluateAnswerByInput(String input) {
+    public String evaluateAnswerByInput(String input) {
         for (Value value : values) {
-            if (value.getInputPattern().contains(input)) {
-                return true;
+            if (value.getInputPattern().equals(input)) {
+                return input;
             }
         }
-        return false;
+        return "Incorrect input!";
     }
 
     public void addValue(Value value) {

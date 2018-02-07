@@ -8,11 +8,11 @@ public class Fact {
     private String era;
     private List<String> winners;
     private List<String> losers;
-    private Integer length;
+    private String length;
     private Long casualties;
     private Integer score = 0;
 
-    public Fact(String type, String name, String era, List<String> winners, List<String> losers, Integer length, Long casualties, Integer score) {
+    public Fact(String type, String name, String era, List<String> winners, List<String> losers, String length, Long casualties, Integer score) {
         this.type = type;
         this.name = name;
         this.era = era;
@@ -45,7 +45,7 @@ public class Fact {
         return losers;
     }
 
-    public Integer getLength() {
+    public String getLength() {
         return length;
     }
 
