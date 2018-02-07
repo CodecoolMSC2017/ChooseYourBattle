@@ -19,4 +19,8 @@ public class RuleRepository {
         Iterator<Question> iter = questions.iterator();
         return iter;
     }
+
+    public List<Question> getQuestions() {
+        return questions;
+    }
 }
