@@ -1,16 +1,16 @@
 package com.codecool;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MultipleValue extends Value{
+    private List<String> multipleValues = new ArrayList<>();
 
-    public List<String> MultipleValue;
-
-    public MultipleValue(List<String> multipleValue) {
-        MultipleValue = multipleValue;
+    public MultipleValue(List<String> multipleValues) {
+        this.multipleValues = multipleValues;
     }
 
     public List<String> getMultipleValue() {
-        return MultipleValue;
+        return multipleValues;
     }
 }

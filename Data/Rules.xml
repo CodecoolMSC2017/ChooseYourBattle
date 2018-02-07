@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rules>
-    <Rule id="historical">
+    <Rule id="type">
         <Question>Historical or Fictional?</Question>
         <Answer>
-            <Selection value="true">
+            <Selection value="historical">
                 <SingleValue value = "historical" />
             </Selection>
             <Selection value="false">

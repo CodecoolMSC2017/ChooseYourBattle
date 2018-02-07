@@ -1,15 +1,15 @@
 package com.codecool;
 
 public class SingleValue extends Value {
-
-    public String SingleValue;
+    private String singleValue;
 
     public SingleValue(String singleValue) {
-        SingleValue = singleValue;
+
+        this.singleValue = singleValue;
     }
 
     public String getSingleValue() {
-        return SingleValue;
+        return singleValue;
     }
 
 

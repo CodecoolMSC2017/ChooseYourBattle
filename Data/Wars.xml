@@ -76,7 +76,7 @@
         <type>historical</type>
         <name>Seven Years' War</name>
         <era>medieval</era>
-        <winners>Great Britain, Prussia</winners>
+        <winners>United Kingdom, Prussia</winners>
         <losers>France, Austria, Russia, Sweden</losers>
         <length>7</length>
         <casualties>1102361</casualties>
@@ -94,7 +94,7 @@
         <type>historical</type>
         <name>Taiping Rebellion</name>
         <era>industrial</era>
-        <winners>China, Britain, France</winners>
+        <winners>China, United Kingdom, France</winners>
         <losers>Taiping</losers>
         <length>14</length>
         <casualties>22360680</casualties>
@@ -103,7 +103,7 @@
         <type>historical</type>
         <name>Indian Rebellion of 1857</name>
         <era>industrial</era>
-        <winners>Great Britain</winners>
+        <winners>United Kingdom</winners>
         <losers>India</losers>
         <length>1</length>
         <casualties>2828427</casualties>
