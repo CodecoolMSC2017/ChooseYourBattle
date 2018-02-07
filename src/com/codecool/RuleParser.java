@@ -17,6 +17,17 @@ public class RuleParser extends XMLParser {
                 Element ruleElement = (Element) ruleNode;
                 String questionId = ruleElement.getAttribute("id");
                 String question = ruleElement.getElementsByTagName("Question").item(0).getTextContent();
-
+                Node answerNode = ruleElement.getElementsByTagName("Answer").item(0);
+                Element answerElement = (Element) answerNode;
+                NodeList selectionList = answerElement.getElementsByTagName("Selection");
+                for (int tempSelection = 0; tempSelection < selectionList.getLength(); tempSelection++) {
+                    Node selectionNode = selectionList.item(tempSelection);
+                    if (selectionNode.getNodeType() == Node.ELEMENT_NODE) {
+                        Element selectionElement = (Element) selectionNode;
+                        
+                    }
+                }
+                }
+            }
     }
 }
