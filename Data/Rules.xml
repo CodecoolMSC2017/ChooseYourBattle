@@ -3,11 +3,16 @@
     <Rule id="type">
         <Question>Historical or Fictional?</Question>
         <Answer>
+<<<<<<< HEAD
             <Selection value="historical">
                 <SingleValue value = "historical" />
+=======
+            <Selection value="true">
+                <SingleValue value="historical"/>
+>>>>>>> c24be10c6b34a67f427b6c9c79773259965ce59b
             </Selection>
             <Selection value="false">
-                <SingleValue value = "fictional" />
+                <SingleValue value="fictional"/>
             </Selection>
         </Answer>
     </Rule>
@@ -15,21 +20,7 @@
     <Rule id="era">
         <Question>What era?</Question>
         <Answer>
-            <Selection value = "1">
-                <SingleValue value = "ancient" />
-            </Selection>
-            <Selection value = "2">
-                <SingleValue value = "medieval" />
-            </Selection>
-            <Selection value = "3">
-                <SingleValue value = "industrial" />
-            </Selection>
-            <Selection value = "4">
-                <SingleValue value = "modern" />
-            </Selection>
-            <Selection value = "5">
-                <SingleValue value = "future" />
-            </Selection>
+            <MultipleValue value="ancient, medieval, industrial, modern, future"/>
         </Answer>
     </Rule>
 
