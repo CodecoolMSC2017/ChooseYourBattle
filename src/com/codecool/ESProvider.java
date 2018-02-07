@@ -4,9 +4,9 @@ public class ESProvider {
     private FactRepository factRepository;
     private RuleRepository ruleRepository;
 
-    public ESProvider(FactParser factParser, RuleParser ruleparser) {
+    public ESProvider(FactParser factParser, RuleParser ruleParser) {
         this.factRepository = factParser.getFactRepository();
-        /*this.ruleRepository = ruleParser.getRuleRepository();*/
+        this.ruleRepository = ruleParser.getRuleRepository();
     }
 
     public void collectAnswers() {
