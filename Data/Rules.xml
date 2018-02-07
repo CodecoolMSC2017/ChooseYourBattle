@@ -3,15 +3,10 @@
     <Rule id="type">
         <Question>Historical or Fictional?</Question>
         <Answer>
-<<<<<<< HEAD
             <Selection value="historical">
                 <SingleValue value = "historical" />
-=======
-            <Selection value="true">
-                <SingleValue value="historical"/>
->>>>>>> c24be10c6b34a67f427b6c9c79773259965ce59b
             </Selection>
-            <Selection value="false">
+            <Selection value="fictional">
                 <SingleValue value="fictional"/>
             </Selection>
         </Answer>
@@ -20,28 +15,80 @@
     <Rule id="era">
         <Question>What era?</Question>
         <Answer>
-            <MultipleValue value="ancient, medieval, industrial, modern, future"/>
+            <Selection value="ancient">
+                <SingleValue value="ancient"/>
+            </Selection>
+            <Selection value="medieval">
+                <SingleValue value="medieval"/>
+            </Selection>
+            <Selection value="industrial">
+                <SingleValue value="industrial"/>
+            </Selection>
+            <Selection value="modern">
+                <SingleValue value="modern"/>
+            </Selection>
+            <Selection value="future">
+                <SingleValue value="future"/>
+            </Selection>
         </Answer>
     </Rule>
 
     <Rule id="winners">
         <Question>Who were the winners?</Question>
         <Answer>
-
+            <Selection value="rome">
+                <MultipleValue value="rome,
+                    alliance,
+                    angola,
+                    centauri republic,
+                    chad,
+                    china,
+                    democratic republic of congo,
+                    dwarves,
+                    eagles,
+                    earth,
+                    elves,
+                    federation alliance,
+                    france,
+                    italy,
+                    kitia,
+                    korea,
+                    lannister,
+                    loyalists,
+                    macedon,
+                    men of dale,
+                    namibia,
+                    order of the phoenix,
+                    people's republic of china,
+                    prussia,
+                    russia,
+                    south african republic,
+                    spanish,
+                    timurid dynasty,
+                    tyrell,
+                    united kingdom,
+                    united states,
+                    venezuela,
+                    zimbabwe"/>
+            </Selection>
         </Answer>
     </Rule>
 
     <Rule id="length">
         <Question>how long did it take?</Question>
         <Answer>
-
-        </Answer>
-    </Rule>
-
-    <Rule id="casualties">
-        <Question>How big were the Casualties?</Question>
-        <Answer>
-
+            <Selection value="blitz">
+                <SingleValue value="blitz" />
+            </Selection>
+            <Selection value="short">
+                <SingleValue value = "short" />
+            </Selection>
+            <Selection value ="medium">
+                <SingleValue value="medium" />
+            </Selection>
+            <Selection value="long">
+                <SingleValue value="long" />
+            </Selection>
         </Answer>
     </Rule>
 
