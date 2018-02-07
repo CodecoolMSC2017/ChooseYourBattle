@@ -11,7 +11,8 @@ public class Main {
         FactRepository wars = factParser.getFactRepository();
 
         for (Fact fact: wars.getFacts()) {
-            System.out.println(fact.getName());
+            System.out.println(fact.getWinners());
+            System.out.println(fact.getWinners());
         }
     }
 }

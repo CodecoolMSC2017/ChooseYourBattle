@@ -1,12 +1,12 @@
 package com.codecool;
 
 public class ESProvider {
-    private FactParser factParser;
-    private RuleParser ruleParser;
+    private FactRepository factRepository;
+    private RuleRepository ruleRepository;
 
     public ESProvider(FactParser factParser, RuleParser ruleparser) {
-        this.factParser = factParser;
-        this.ruleParser = ruleParser;
+        this.factRepository = factParser.getFactRepository();
+        this.ruleRepository = ruleParser.getRuleRepository();
     }
 
     public void collectAnswers() {

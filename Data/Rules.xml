@@ -4,7 +4,7 @@
         <Question>Historical or Fictional?</Question>
         <Answer>
             <Selection value="historical">
-                <SingleValue value="historical"/>
+                <SingleValue value = "historical" />
             </Selection>
             <Selection value="fictional">
                 <SingleValue value="fictional"/>

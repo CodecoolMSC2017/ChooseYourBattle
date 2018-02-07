@@ -3,7 +3,11 @@ package com.codecool;
 import java.util.Iterator;
 
 public class RuleParser {
-    private RuleRepository ruleRepository = new RuleRepository();
+    private RuleRepository ruleRepository;
+
+    public RuleParser() {
+        ruleRepository = new RuleRepository();
+    }
 
     public RuleRepository getRuleRepository() {
         return ruleRepository;
