@@ -7,7 +7,7 @@
         <winners>Rome</winners>
         <losers>Latin</losers>
         <length>5</length>
-        <casualities>2500</casualities>
+        <casualties>2500</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -16,7 +16,7 @@
         <winners>Rome</winners>
         <losers>Carthage</losers>
         <length>16</length>
-        <casualities>600000</casualities>
+        <casualties>600000</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -25,7 +25,7 @@
         <winners>Rome</winners>
         <losers>Pontus</losers>
         <length>4</length>
-        <casualities>300000</casualities>
+        <casualties>300000</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -34,7 +34,7 @@
         <winners>Rome</winners>
         <losers>Gaul</losers>
         <length>8</length>
-        <casualities>1000000</casualities>
+        <casualties>1000000</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -43,7 +43,7 @@
         <winners>Macedon</winners>
         <losers>Persia, India, Greece, Egypt, Thrace, Syria, Babylon</losers>
         <length>13</length>
-        <casualities>140000</casualities>
+        <casualties>140000</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -52,7 +52,7 @@
         <winners>Timurid Dynasty</winners>
         <losers>Golden Horde, Georgia, Ottoman Empire</losers>
         <length>35</length>
-        <casualities>12649111</casualities>
+        <casualties>12649111</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -61,7 +61,7 @@
         <winners>France</winners>
         <losers>England</losers>
         <length>116</length>
-        <casualities>2794995</casualities>
+        <casualties>2794995</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -70,7 +70,7 @@
         <winners>Spanish</winners>
         <losers>Maya</losers>
         <length>76</length>
-        <casualities>1460000</casualities>
+        <casualties>1460000</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -79,7 +79,7 @@
         <winners>Great Britain, Prussia</winners>
         <losers>France, Austria, Russia, Sweden</losers>
         <length>7</length>
-        <casualities>1102361</casualities>
+        <casualties>1102361</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -88,7 +88,7 @@
         <winners>Korea, China</winners>
         <losers>Japan</losers>
         <length>6</length>
-        <casualities>1000000</casualities>
+        <casualties>1000000</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -97,7 +97,7 @@
         <winners>China, Britain, France</winners>
         <losers>Taiping</losers>
         <length>14</length>
-        <casualities>22360680</casualities>
+        <casualties>22360680</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -106,7 +106,7 @@
         <winners>Great Britain</winners>
         <losers>India</losers>
         <length>1</length>
-        <casualities>2828427</casualities>
+        <casualties>2828427</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -115,7 +115,7 @@
         <winners>United States</winners>
         <losers>Confederate</losers>
         <length>4</length>
-        <casualities>800000</casualities>
+        <casualties>800000</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -124,7 +124,7 @@
         <winners>South African Republic</winners>
         <losers>United Kingdom</losers>
         <length>1</length>
-        <casualities>449</casualities>
+        <casualties>449</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -133,7 +133,7 @@
         <winners>United Kingdom</winners>
         <losers>Zanzibar</losers>
         <length>0</length>
-        <casualities>500</casualities>
+        <casualties>500</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -142,7 +142,7 @@
         <winners>Venezuela</winners>
         <losers>United Kingdom, Germany, Italy</losers>
         <length>1</length>
-        <casualities>143</casualities>
+        <casualties>143</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -151,7 +151,7 @@
         <winners>United Kingdom, Russia, United States, France</winners>
         <losers>Germany, Italy, Hungary</losers>
         <length>6</length>
-        <casualities>36696798</casualities>
+        <casualties>36696798</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -160,7 +160,7 @@
         <winners>United Kingdom, France, Russia, Italy, United States</winners>
         <losers>Germany, Austria, Hungary, Ottoman Empire</losers>
         <length>4</length>
-        <casualities>13396335</casualities>
+        <casualties>13396335</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -169,7 +169,7 @@
         <winners>People's Republic of China</winners>
         <losers>Taiwan</losers>
         <length>23</length>
-        <casualities>9671401</casualities>
+        <casualties>9671401</casualties>
     </war>
     <war>
         <type>historical</type>
@@ -178,7 +178,7 @@
         <winners>Democratic Republic of Congo, Namibia, Zimbabwe, Angola, Chad</winners>
         <losers>Rwanda, Uganda</losers>
         <length>5</length>
-        <casualities>3674235</casualities>
+        <casualties>3674235</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -187,7 +187,7 @@
         <winners>Dwarves, Elves, Men of Dale, Eagles</winners>
         <losers>Orcs, Wargs</losers>
         <length>0</length>
-        <casualities>1700</casualities>
+        <casualties>1700</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -196,7 +196,7 @@
         <winners>Lannister, Tyrell</winners>
         <losers>Baratheon</losers>
         <length>0</length>
-        <casualities>12746</casualities>
+        <casualties>12746</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -205,7 +205,7 @@
         <winners>Order of the Phoenix</winners>
         <losers>Death Eaters</losers>
         <length>0</length>
-        <casualities>100</casualities>
+        <casualties>100</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -214,7 +214,7 @@
         <winners>Kitia</winners>
         <losers>Vaor</losers>
         <length>1</length>
-        <casualities>30348</casualities>
+        <casualties>30348</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -223,7 +223,7 @@
         <winners>Earth</winners>
         <losers>Romulans</losers>
         <length>4</length>
-        <casualities>7634656</casualities>
+        <casualties>7634656</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -232,7 +232,7 @@
         <winners>Federation Alliance</winners>
         <losers>Cardassian Union, Dominion</losers>
         <length>2</length>
-        <casualities>1200000007</casualities>
+        <casualties>1200000007</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -241,7 +241,7 @@
         <winners>Alliance</winners>
         <losers>Galactic Empire</losers>
         <length>0</length>
-        <casualities>2000027</casualities>
+        <casualties>2000027</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -250,7 +250,7 @@
         <winners>Centauri Republic</winners>
         <losers>Narn</losers>
         <length>1</length>
-        <casualities>18465384</casualities>
+        <casualties>18465384</casualties>
     </war>
     <war>
         <type>fictional</type>
@@ -259,6 +259,6 @@
         <winners>Loyalists</winners>
         <losers>Traitors</losers>
         <length>10</length>
-        <casualities>trillions</casualities>
+        <casualties>trillions</casualties>
     </war>
 </Wars>

@@ -9,16 +9,18 @@ public class Fact {
     private List<String> winners;
     private List<String> losers;
     private Integer length;
-    private Long casualities;
+    private Long casualties;
+    private Integer score = 0;
 
-    public Fact(String type, String name, String era, List<String> winners, List<String> losers, Integer length, Long casualities) {
+    public Fact(String type, String name, String era, List<String> winners, List<String> losers, Integer length, Long casualties, Integer score) {
         this.type = type;
         this.name = name;
         this.era = era;
         this.winners = winners;
         this.losers = losers;
         this.length = length;
-        this.casualities = casualities;
+        this.casualties = casualties;
+        this.score = score;
     }
 
 
@@ -48,6 +50,14 @@ public class Fact {
     }
 
     public Long getCasualities() {
-        return casualities;
+        return casualties;
+    }
+
+    public Integer getScore() {
+        return score;
+    }
+
+    public void setScore(Integer add) {
+        score += add;
     }
 }
