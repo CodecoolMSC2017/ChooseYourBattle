@@ -1,19 +1,24 @@
 package com.codecool;
 
-public class Answer {
-    String input;
-    Value value;
+import java.util.List;
 
-    public Answer(String input, Value value) {
-        this.input = input;
-        this.value = value;
+public class Answer {
+    private List<Value> values;
+
+    public Answer(List<Value> values) {
+        this.values = values;
     }
 
     public boolean evaluateAnswerByInput(String input) {
-        return true;
+        for (Value value : values) {
+            if (value.getInputPatter().contains(input)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void addValue(Value value) {
-
+        values.add(value);
     }
 }
