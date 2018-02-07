@@ -11,7 +11,7 @@ public class Answer {
 
     public boolean evaluateAnswerByInput(String input) {
         for (Value value : values) {
-            if (value.getInputPatter().contains(input)) {
+            if (value.getInputPattern().contains(input)) {
                 return true;
             }
         }
