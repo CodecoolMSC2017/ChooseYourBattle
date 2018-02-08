@@ -37,39 +37,7 @@
         <Question>Who were the winners?</Question>
         <Answer>
             <Selection value="rome">
-                <MultipleValue value="rome,
-                    alliance,
-                    angola,
-                    centauri republic,
-                    chad,
-                    china,
-                    democratic republic of congo,
-                    dwarves,
-                    eagles,
-                    earth,
-                    elves,
-                    federation alliance,
-                    france,
-                    italy,
-                    kitia,
-                    korea,
-                    lannister,
-                    loyalists,
-                    macedon,
-                    men of dale,
-                    namibia,
-                    order of the phoenix,
-                    people's republic of china,
-                    prussia,
-                    russia,
-                    south african republic,
-                    spanish,
-                    timurid dynasty,
-                    tyrell,
-                    united kingdom,
-                    united states,
-                    venezuela,
-                    zimbabwe"/>
+                <MultipleValue value="rome,alliance,angola,centauri republic,chad,china,democratic republic of congo,dwarves,eagles,earth,elves,federation alliance,france,italy,kitia,korea,lannister,loyalists,macedon,men of dale,namibia,order of the phoenix,people's republic of china,prussia,russia,south african republic,spanish,timurid dynasty,tyrell,united kingdom,united states,venezuela,zimbabwe"/>
             </Selection>
         </Answer>
     </Rule>
