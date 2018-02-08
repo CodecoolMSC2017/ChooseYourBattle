@@ -31,10 +31,12 @@ public class RuleParser extends XMLParser {
                         NodeList singleValueList = selectionElement.getElementsByTagName("SingleValue");
                         NodeList multipleValueList = selectionElement.getElementsByTagName("MultipleValue");
                         if (singleValueList.getLength() > 0) {
-                            Value singleValue = new SingleValue(singleValueList.item(0).getTextContent());
+                            Element single = (Element)singleValueList.item(0);
+                            Value singleValue = new SingleValue(single.getAttribute("value"));
                             valueList.add(singleValue);
                         } else {
-                            String multipleValues = multipleValueList.item(0).getTextContent();
+                            Element multiple = (Element)multipleValueList.item(0);
+                            String multipleValues = multiple.getAttribute("value");
                             List<String> splittedMultipleValues = Arrays.asList(multipleValues.split(","));
                             Value multipleValue = new MultipleValue(splittedMultipleValues);
                             valueList.add(multipleValue);

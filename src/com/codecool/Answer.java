@@ -27,4 +27,8 @@ public class Answer {
     public void addValue(Value value) {
         values.add(value);
     }
+
+    public List<Value> getValues() {
+        return values;
+    }
 }
