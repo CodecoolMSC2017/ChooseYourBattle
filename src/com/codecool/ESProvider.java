@@ -33,7 +33,9 @@ public class ESProvider {
                         }
                     }
                 }
+                System.out.println();
                 String uinput = question.getEvaulatedAnswer(scanner.nextLine().toLowerCase());
+                System.out.println();
                 if (uinput.equals("Incorrect input!")) {
                     System.out.println("Incorrect input!");
                     continue;
@@ -51,18 +53,18 @@ public class ESProvider {
             if (questionID.equals("type")) {
                 Fact checkValue = factIter.next();
                 if (checkValue.getType().equals(uinput)) {
-                    checkValue.setScore(4);
+                    checkValue.setScore(1);
                 }
             } else if (questionID.equals("era")) {
                 Fact checkValue = factIter.next();
                 if (checkValue.getEra().equals(uinput)) {
-                    checkValue.setScore(3);
+                    checkValue.setScore(1);
                 }
             } else if (questionID.equals("winners")) {
                 Fact checkValue = factIter.next();
                 for (String winner : checkValue.getWinners()) {
-                    if (winner.equals(uinput)) {
-                        checkValue.setScore(2);
+                    if ((winner.toLowerCase()).equals(uinput)) {
+                        checkValue.setScore(1);
                     }
                 }
             } else if (questionID.equals("length")) {
@@ -87,5 +89,9 @@ public class ESProvider {
             }
         }
         return bestFits;
+    }
+
+    public FactRepository getFactRepository() {
+        return factRepository;
     }
 }

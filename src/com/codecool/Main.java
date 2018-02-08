@@ -22,6 +22,7 @@ public class Main {
         esp.collectAnswers();
 
         List<Fact> results = esp.evaluate();
+
         System.out.println("Recommended battles for you:");
         for (Fact result : results) {
             System.out.println(result.getName() + " taking ca. " + result.getCasualities() + " lives. Good job!");
