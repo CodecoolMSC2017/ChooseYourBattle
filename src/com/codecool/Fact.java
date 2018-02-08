@@ -23,8 +23,6 @@ public class Fact {
         this.score = score;
     }
 
-
-
     public String getType() {
         return type;
     }
