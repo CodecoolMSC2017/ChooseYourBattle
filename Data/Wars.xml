@@ -41,7 +41,7 @@
         <name>Alexander's Campaign</name>
         <era>ancient</era>
         <winners>Macedon</winners>
-        <losers>Persia, India, Greece, Egypt, Thrace, Syria, Babylon</losers>
+        <losers>Persia,India,Greece,Egypt,Thrace,Syria,Babylon</losers>
         <length>medium</length>
         <casualties>140000</casualties>
     </war>
@@ -50,7 +50,7 @@
         <name>Conquests of Timur</name>
         <era>medieval</era>
         <winners>Timurid Dynasty</winners>
-        <losers>Golden Horde, Georgia, Ottoman Empire</losers>
+        <losers>Golden Horde,Georgia,Ottoman Empire</losers>
         <length>medium</length>
         <casualties>12649111</casualties>
     </war>
@@ -76,8 +76,8 @@
         <type>historical</type>
         <name>Seven Years' War</name>
         <era>medieval</era>
-        <winners>United Kingdom, Prussia</winners>
-        <losers>France, Austria, Russia, Sweden</losers>
+        <winners>United Kingdom,Prussia</winners>
+        <losers>France,Austria,Russia,Sweden</losers>
         <length>short</length>
         <casualties>1102361</casualties>
     </war>
@@ -85,7 +85,7 @@
         <type>historical</type>
         <name>Japanese Invasions of Korea</name>
         <era>medieval</era>
-        <winners>Korea, China</winners>
+        <winners>Korea,China</winners>
         <losers>Japan</losers>
         <length>short</length>
         <casualties>1000000</casualties>
@@ -94,7 +94,7 @@
         <type>historical</type>
         <name>Taiping Rebellion</name>
         <era>industrial</era>
-        <winners>China, United Kingdom, France</winners>
+        <winners>China,United Kingdom,France</winners>
         <losers>Taiping</losers>
         <length>medium</length>
         <casualties>22360680</casualties>
@@ -140,7 +140,7 @@
         <name>Venezuelan crisis of 1902-03</name>
         <era>modern</era>
         <winners>Venezuela</winners>
-        <losers>United Kingdom, Germany, Italy</losers>
+        <losers>United Kingdom,Germany,Italy</losers>
         <length>blitz</length>
         <casualties>143</casualties>
     </war>
@@ -148,8 +148,8 @@
         <type>historical</type>
         <name>World War II</name>
         <era>modern</era>
-        <winners>United Kingdom, Russia, United States, France</winners>
-        <losers>Germany, Italy, Hungary</losers>
+        <winners>United Kingdom,Russia,United States,France</winners>
+        <losers>Germany,Italy,Hungary</losers>
         <length>short</length>
         <casualties>36696798</casualties>
     </war>
@@ -157,8 +157,8 @@
         <type>historical</type>
         <name>World War I</name>
         <era>modern</era>
-        <winners>United Kingdom, France, Russia, Italy, United States</winners>
-        <losers>Germany, Austria, Hungary, Ottoman Empire</losers>
+        <winners>United Kingdom,France,Russia,Italy,United States</winners>
+        <losers>Germany,Austria,Hungary,Ottoman Empire</losers>
         <length>short</length>
         <casualties>13396335</casualties>
     </war>
@@ -175,8 +175,8 @@
         <type>historical</type>
         <name>Second Congo War</name>
         <era>modern</era>
-        <winners>Democratic Republic of Congo, Namibia, Zimbabwe, Angola, Chad</winners>
-        <losers>Rwanda, Uganda</losers>
+        <winners>Democratic Republic of Congo,Namibia,Zimbabwe,Angola,Chad</winners>
+        <losers>Rwanda,Uganda</losers>
         <length>short</length>
         <casualties>3674235</casualties>
     </war>
@@ -184,8 +184,8 @@
         <type>fictional</type>
         <name>Battle of five armies</name>
         <era>medieval</era>
-        <winners>Dwarves, Elves, Men of Dale, Eagles</winners>
-        <losers>Orcs, Wargs</losers>
+        <winners>Dwarves,Elves,Men of Dale,Eagles</winners>
+        <losers>Orcs,Wargs</losers>
         <length>blitz</length>
         <casualties>1700</casualties>
     </war>
@@ -193,7 +193,7 @@
         <type>fictional</type>
         <name>Battle of Blackwater</name>
         <era>medieval</era>
-        <winners>Lannister, Tyrell</winners>
+        <winners>Lannister,Tyrell</winners>
         <losers>Baratheon</losers>
         <length>blitz</length>
         <casualties>12746</casualties>
@@ -230,7 +230,7 @@
         <name>Dominion War</name>
         <era>future</era>
         <winners>Federation Alliance</winners>
-        <losers>Cardassian Union, Dominion</losers>
+        <losers>Cardassian Union,Dominion</losers>
         <length>short</length>
         <casualties>1200000007</casualties>
     </war>
