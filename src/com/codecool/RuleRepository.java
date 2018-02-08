@@ -11,16 +11,8 @@ public class RuleRepository {
         questions.add(question);
     }
 
-    public void removeQuestion(Question question) {
-        questions.remove(question);
-    }
-
     public Iterator<Question> getIterator() {
         Iterator<Question> iter = questions.iterator();
         return iter;
-    }
-
-    public List<Question> getQuestions() {
-        return questions;
     }
 }

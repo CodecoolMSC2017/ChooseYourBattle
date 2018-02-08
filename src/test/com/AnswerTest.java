@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AnswerTest {
 
-    Answer answerTest = new Answer();
+    /*Answer answerTest = new Answer();*/
 
     @BeforeEach
     void setUp() {
