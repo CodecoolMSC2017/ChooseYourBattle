@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
         FactParser factParser = new FactParser();
-        factParser.loadXmlDocument("./Data/Wars.xml");
+        factParser.loadXmlDocument("../Data/Wars.xml");
         RuleParser ruleParser = new RuleParser();
-        ruleParser.loadXmlDocument("./Data/Rules.xml");
+        ruleParser.loadXmlDocument("../Data/Rules.xml");
         ESProvider esp = new ESProvider(factParser, ruleParser);
 
         System.out.print("\033[H\033[2J");
