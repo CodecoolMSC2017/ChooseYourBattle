@@ -1,5 +1,7 @@
 package com.codecool;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,15 +21,11 @@ public class Main {
 
         esp.collectAnswers();
 
-        /*factParser.loadXmlDocument("./Data/Wars.xml");
-        FactRepository wars = factParser.getFactRepository();
+        List<Fact> results = esp.evaluate();
+        System.out.println("Recommended battles for you:");
+        for (Fact result : results) {
+            System.out.println(result.getName() + " taking ca. " + result.getCasualities() + " lives. Good job!");
+        }
 
-        ruleParser.loadXmlDocument("./Data/Rules.xml");
-        RuleRepository rules = ruleParser.getRuleRepository();
-
-        for (Question question: rules.getQuestions()) {
-            System.out.println(question.getId());
-            System.out.println(question.getQuestion());
-        }*/
     }
 }
