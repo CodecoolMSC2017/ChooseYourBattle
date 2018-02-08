@@ -14,7 +14,8 @@ class FactRepositoryTest {
     void getFactRepository() {
         FactParser factParser = new FactParser();
         FactRepository factRepository = factParser.getFactRepository();
+        List<Fact> facts = factRepository.getFacts();
         List<Fact> testFacts;
-        assertEquals(factRepository, true);
+        assertEquals(facts, testFacts);
     }
 }
