@@ -51,21 +51,23 @@ public class ESProvider {
             if (questionID.equals("type")) {
                 Fact checkValue = factIter.next();
                 if (checkValue.getType().equals(uinput)) {
-                    checkValue.setScore(1);
+                    checkValue.setScore(4);
                 }
-            }else if (questionID.equals("era")) {
+            } else if (questionID.equals("era")) {
                 Fact checkValue = factIter.next();
                 if (checkValue.getEra().equals(uinput)) {
-                    checkValue.setScore(1);
+                    checkValue.setScore(3);
                 }
-            }else if (questionID.equals("winners")) {
+            } else if (questionID.equals("winners")) {
                 Fact checkValue = factIter.next();
-                if (checkValue.getType().equals(uinput)) {
-                    checkValue.setScore(1);
+                for (String winner : checkValue.getWinners()) {
+                    if (winner.equals(uinput)) {
+                        checkValue.setScore(2);
+                    }
                 }
-            }else if (questionID.equals("length")) {
+            } else if (questionID.equals("length")) {
                 Fact checkValue = factIter.next();
-                if (checkValue.getType().equals(uinput)) {
+                if (checkValue.getLength().equals(uinput)) {
                     checkValue.setScore(1);
                 }
             }
@@ -80,7 +82,7 @@ public class ESProvider {
                 maxScore = fact.getScore();
                 bestFits.clear();
                 bestFits.add(fact);
-            }else if (fact.getScore() == maxScore) {
+            } else if (fact.getScore() == maxScore) {
                 bestFits.add(fact);
             }
         }
